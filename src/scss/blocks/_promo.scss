@@ -1,0 +1,31 @@
+.promo {
+    min-height: 658px;
+    padding: 240px 0 62px 0;
+    background: url("../../img/Header-bg.jpg") center center/cover no-repeat;
+    &__title {
+        font-weight: 700;
+        font-size: 100px;
+
+        text-align: center;
+
+        color: #ffffff;
+    }
+    &__descr {
+        margin-top: 45px;
+        font-weight: 700;
+        font-size: 16px;
+
+        text-align: center;
+        letter-spacing: 2.74286px;
+
+        color: #fcbb08;
+    }
+    &__decor {
+        img {
+            display: block;
+
+            margin: 0 auto;
+            margin-top: 180px;
+        }
+    }
+}

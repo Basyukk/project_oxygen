@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/about";
+@import "blocks/expertise";
+@import "blocks/magic";
