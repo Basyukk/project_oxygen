@@ -1,0 +1,36 @@
+.video {
+    padding-top: 130px;
+    &__quotes {
+        font-style: italic;
+        max-width: 600px;
+        margin: 0 auto;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 36px;
+
+        text-align: center;
+
+        color: #242121;
+        &-autor {
+            margin-top: 60px;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 14px;
+
+            text-align: center;
+
+            color: #9e9e9e;
+        }
+    }
+
+    &__content {
+        margin-top: 150px;
+        padding-top: 130px;
+        min-height: 324px;
+        background: url("../../img/video.jpg") center center/cover no-repeat;
+    }
+    &__play {
+        margin: 0 auto;
+        display: block;
+    }
+}

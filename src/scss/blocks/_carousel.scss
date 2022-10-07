@@ -1,0 +1,99 @@
+.carousel {
+    position: relative;
+    &__item {
+        // min-width: 840px;
+
+        padding-top: 200px;
+        padding-bottom: 250px;
+        padding-left: 133px;
+        background-color: #f6f8fa;
+        // margin: 0 auto;
+
+        &-title {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            max-width: 704px;
+            // margin: 0 auto;
+
+            color: #242121;
+        }
+        &-text {
+            max-width: 560px;
+            // margin: 0 auto;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 24px;
+            margin-top: 40px;
+
+            color: #777777;
+        }
+    }
+
+    /* Ограничивающая оболочка */
+    .slick-list {
+        overflow: hidden;
+    }
+    /* Лента слайдов */
+    .slick-track {
+        display: flex;
+    }
+
+    /* Стрелка */
+    .slick-arrow {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        z-index: 10;
+        font-size: 0;
+        border: none;
+    }
+    /* Стрелка влево */
+    .slick-arrow.slick-prev {
+        transform: translateX(100%);
+        left: 0;
+        background: url("../../icons/arrow-left.svg") 0 0 /100% no-repeat;
+    }
+    /* Стрелка вправо */
+    .slick-arrow.slick-next {
+        transform: translateX(-100%);
+        right: 0;
+        background: url("../../icons/arrow-right.svg") 0 0 /100% no-repeat;
+    }
+
+    /* Точки (булиты) */
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // position: absolute;
+    }
+    .slick-dots li {
+        list-style: none;
+
+        margin: 0 10px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 10px;
+        height: 10px;
+        background-color: #242121;
+    }
+
+    .slick-dots li button {
+        transform: translateY(-120px);
+
+        padding: 0;
+        font-size: 0;
+        width: 6px;
+        height: 6px;
+        background-color: rgba($color: #242121, $alpha: 0.4);
+        // opacity: 0.4;
+        border: none;
+        border-radius: 50%;
+    }
+}

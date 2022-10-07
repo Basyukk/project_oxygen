@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 .container {
     max-width: 1174px;
@@ -11,3 +12,7 @@
 @import "blocks/about";
 @import "blocks/expertise";
 @import "blocks/magic";
+@import "blocks/portfolio";
+@import "blocks/video";
+@import "blocks/statistics";
+@import "blocks/carousel";

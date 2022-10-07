@@ -1,0 +1,29 @@
+.statistics {
+    min-height: 431px;
+
+    padding-top: 164px;
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__num {
+        font-weight: 700;
+        font-size: 60px;
+
+        color: #242121;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 30px;
+
+        color: #00b2a0;
+    }
+}
