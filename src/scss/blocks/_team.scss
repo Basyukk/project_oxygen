@@ -1,0 +1,30 @@
+.team {
+    min-height: 1000px;
+    padding: 125px 0 164px 0;
+
+    &__items {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &-name {
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 37px;
+
+            text-align: center;
+
+            color: #333333;
+        }
+        &-position {
+            margin-top: 15px;
+            font-weight: 300;
+            font-size: 12px;
+
+            text-align: center;
+
+            color: #c2c2c2;
+        }
+    }
+}
